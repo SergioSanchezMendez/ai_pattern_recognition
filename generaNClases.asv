@@ -1,0 +1,29 @@
+function Ac = generaNClases(A, D, n)
+% Genera n clases a partir de la lista
+% A de aristas y de sus pesos en D
+%mediante varios procedimientos. (alfa/beta)
+
+
+nclases = minint;
+
+while nclases > n
+   
+   % Elimina arista 
+   metodoAlfa(); 
+   
+   % Cuenta numero de clases
+   nclases = numeroDeClases();
+  
+   
+    
+end
+
+
+
+
+
+
+% Numero de aristas eliminadas
+elim = 0;
+
+end
