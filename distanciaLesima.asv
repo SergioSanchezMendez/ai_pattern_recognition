@@ -1,0 +1,23 @@
+function d = distanciaLesima(y, M, l)
+% Distancia L-esima 
+% distancias del conjunto de muestras etiquetadas
+% 
+sM = size(M);
+ 
+D = [];       % Distancias de todas las muestras
+
+for i=1:sM(1)
+     
+      dist = dist(y, M(i));
+      D(i)  
+end
+% 
+% 
+% d = dist/tot;
+
+
+A = [1 4 5 3];
+B = sort(A)
+
+d = 0;
+end
