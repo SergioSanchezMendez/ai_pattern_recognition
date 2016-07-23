@@ -1,0 +1,11 @@
+function disc = calculaDiscriminante(X, i, M)
+% Devuelve el valor de la función discriminante i
+% para la muestra de entrada X. Con el conjunto de
+% entrenamiento M
+
+pc = pro
+
+
+disc = 69;
+
+end
