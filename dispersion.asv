@@ -1,0 +1,21 @@
+function g = dispersion(M)
+% La dispersión será el promedio de las L-esimas
+% distancias del conjunto de muestras etiquetadas
+
+sM = size(M);
+
+tot = 0;    % Total de elementos computables
+dist = 0;   % Distancia parcial acumulada
+for i=1:sM(1)
+    
+        % La dispersión podría evaluarse solo para 
+    % las clases de cada función discriminante
+    % y no sería tot = sM(1)
+    tot = tot +1;
+end
+
+
+
+g = 69;
+
+end
