@@ -1,0 +1,43 @@
+function [Ac, Dc] = metodoAlfa(A, D)
+% Elimina una arista por el método alfa
+% La de mayor peso
+% A contiene la lista de arista
+% D contiene los pesos
+% Ac - Devuelve las nuevas aristas
+
+
+qa = size(A);
+[val, ind] = max(D)
+
+A 
+%Aaux = [A(3, :)]
+
+ind
+for i=1:qa(1)
+    if(i == ind)
+    else
+        C(i, :) = A(i, :);
+    end
+end
+    
+C
+
+% Aaux(1:2) = [A(1:ind-1)]
+% Ac(1:2) = [Aaux A(ind+1:qa(1))];
+% 
+% Daux(:) = [D(1:ind-1)];
+% Dc(:) = [Daux D(ind+1:qa(1))];
+
+
+%size(Ac);
+%size(Dc);
+
+Ac = 0;
+Dc = 0;
+
+% Numero de aristas eliminadas
+elim = 0;
+
+Ac;
+
+end

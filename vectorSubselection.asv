@@ -1,0 +1,40 @@
+% Devuelve subseleccion de M con las
+% columnas definidas en C
+function N = vectorSubselection(M, C)    
+
+if (nargin ~= 2)
+   error('Numero de argumentos incorrecto');
+end
+
+
+j = 1;
+sC = size(C);
+
+sC;
+
+
+
+for i=1:sC(1)
+   
+    %C(:)
+    C(1)
+    C(2)
+    
+    if(C(1))
+    N = [N M(:, i)]
+    
+    
+end
+
+
+
+% M = [2 3 4];
+% T = [[0 0 0];[0 1 0];[1 0 0]];
+% A = T*M';
+% A
+% 
+% N = TM;
+
+N = 0;
+
+end

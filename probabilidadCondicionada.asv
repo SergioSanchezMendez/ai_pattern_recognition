@@ -1,0 +1,20 @@
+function pci = probabilidadCondicionada(X, i, M, L)
+% Devuelve el valor de la suma de las funciones potenciales
+% de las muestras de M que intervienen en la clase i
+% L contiene las clases de cada muestra
+
+sM = size(M)
+
+% Para todas las muestras etiquetadas
+for j=1:sM(1)
+
+   % Si son de la clase de la funcion discriminante actual
+   % se incluyen en el cómputo de la probabilidad.
+   if(L(j)==i)
+        
+   end
+end
+
+pci = 69;
+
+end

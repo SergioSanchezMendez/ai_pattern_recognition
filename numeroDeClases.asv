@@ -1,0 +1,36 @@
+function n = numeroDeClases(A)
+% Dada una lista de Aristas A,
+% devuelve el numero de componentes
+% conexas o clases en 'n'
+
+A;
+
+qa = size(A);
+Cv = [];    % Vector de clases
+
+% Asignacion de clases inicial
+% Tantas como clases
+Cv = (1:qa(1));
+
+
+for i=1: qa(1)
+    %A(i, :)  
+    a1 = A(i, 1);
+    b1 = A(i, 2);
+      
+      for j=i:qa(1)
+          b1 = A(j, 1);
+          b2 = A(j, 2);
+          
+          if (a1 == b1) || (a1 == b2) || (b1 == b1) || (a1 == b2) 
+          end
+          
+      end
+end 
+
+
+
+% Numero de clases
+n = 0;
+
+end
