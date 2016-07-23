@@ -1,0 +1,12 @@
+function p = funcionPotencial(X, Y)
+% Devuelve el valor de de funcion potencial de 
+% la muestra X desde la muestra etiquetada Y
+
+
+% Aplicamos la funcion potencial
+
+
+
+p = 69;
+
+end
